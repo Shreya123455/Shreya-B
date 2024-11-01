@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-image: url("login.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signup-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.signup-card {
+  padding: 40px;
+  border-radius: 20px;
+  background-image: url("image1.jpg");
+  width: 350px;
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.signup-card .signup-heading {
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.signup-card .input-field {
+  position: relative;
+  margin-bottom: 25px;
+}
+.signup-card .input-field .icon {
+  position: absolute;
+  top: 12px;
+  left: 10px;
+  color: #888;
+}
+.signup-card .input-field input {
+  width: 100%;
+  padding: 12px 10px 12px 35px;
+  border-radius: 25px;
+  border: none;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+  font-family: "Cursive", sans-serif;
+}
+.signup-card .input-field input:focus {
+  outline: none;
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.signup-card .signup-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #1ca7d7;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-family: "Cursive", sans-serif;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.signup-card .signup-button:hover {
+  background-color: #3fefe3;
+}
+.signup-card .login-section {
+  margin-top: 20px;
+}
+.signup-card .login-section a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+.signup-card .login-section a p {
+  color: #007bff;
+  font-size: 16px;
+  font-weight: bold;
+}
+.signup-card .login-section a:hover p {
+  text-decoration: underline;
+}
+
+.error {
+  color: lightpink;
+  font-size: 12px;
+  margin-top: 5px;
+}/*# sourceMappingURL=sign.css.map */

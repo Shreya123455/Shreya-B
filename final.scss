@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+.header {
+  width: 100%;
+  background: linear-gradient(to right, #d4a373, #f0e5de);
+  padding: 50px;
+  text-align: center;
+  margin-top: 0px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  
+  nav {
+    .navigation {
+      display: flex;
+      list-style-type: none;
+      
+      li {
+        margin: 0 20px;
+        margin-bottom: 0px;
+        a {
+          text-decoration: none;
+          color: #201d1d;
+          font-size: 1.1rem;
+          font-weight: bold;
+          transition: color 0.3s ease;
+
+          &:hover {
+            color: #f5f6f7;
+          }
+        }
+      }
+    }
+  }
+}
+
+.icon-section {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+
+  .icon,
+  .chatbot {
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    padding: 40px;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+  list-style-type: none;
+
+  .item {
+    width: 280px;
+    min-height: 420px; 
+    padding: 20px;
+    background-color: #e0d9d9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+
+    &:hover {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+   
+    }
+
+    h5 {
+      font-size: 1.2rem;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 0.9rem;
+      color: #666;
+      margin-bottom: 15px;
+      flex-grow: 2; 
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 100px;
+      max-height: 100px; 
+    }
+
+    button {
+      padding: 10px;
+      width: 100%;
+      background-color: #0056b3;
+      color: #fff;
+      font-size: 1rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: #003f8c;
+      }
+    }
+  }
+}
